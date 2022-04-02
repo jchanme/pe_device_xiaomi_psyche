@@ -14,12 +14,12 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from alioth device
-$(call inherit-product, device/xiaomi/alioth/device.mk)
+$(call inherit-product, device/xiaomi/psyche/device.mk)
 
-PRODUCT_NAME := aosp_alioth
-PRODUCT_DEVICE := alioth
+PRODUCT_NAME := aosp_psyche
+PRODUCT_DEVICE := psyche
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO F3
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Mi 12X
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
