@@ -6,9 +6,9 @@
    "branch"      : "eleven"
  },
  {
-   "repository"  : "vendor_xiaomi_alioth",
-   "target_path" : "vendor/xiaomi/alioth",
-   "remote"      : "pixel-devices-blobs",
+   "repository"  : "pe_vendor_xiaomi_psyche",
+   "target_path" : "vendor/xiaomi/psyche",
+   "remote"      : "jchanme",
    "branch"      : "eleven"
  }
 ]
