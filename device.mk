@@ -70,4 +70,4 @@ PRODUCT_SOONG_NAMESPACES += \
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
+$(call inherit-product, vendor/xiaomi/psyche/psyche-vendor.mk)
